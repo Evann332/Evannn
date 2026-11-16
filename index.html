@@ -10,7 +10,7 @@
         body { 
             font-family: 'Cairo', sans-serif; text-align: center; 
             background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), 
-                        url('https://images.unsplash.com/photo-1543872084-c7bd3822856f?q=80&w=1974&auto=format&fit=crop') no-repeat center center fixed; 
+                        url('https://i.imgur.com/RVpz204.jpeg') no-repeat center center fixed; 
             background-size: cover; color: white; padding: 20px; margin: 0; 
         }
         .container { max-width: 400px; margin: auto; }
@@ -37,10 +37,15 @@
         }
 
         .animated-name { 
-            font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 30px;
+            font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 5px;
             animation: zoomPulse 2s infinite alternate; text-shadow: 0 0 10px #ffd700;
         }
         @keyframes zoomPulse { from { transform: scale(1); } to { transform: scale(1.1); } }
+
+        .sub-slogan {
+            font-size: 15px; color: #ffd700; font-weight: 600; margin-bottom: 25px;
+            text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+        }
 
         .link { 
             display: flex; align-items: center; justify-content: start; 
@@ -55,7 +60,8 @@
         .fa-instagram { color: #e1306c; }
         .fa-youtube { color: #ff0000; }
         .fa-snapchat { color: #fffc00; }
-        .fa-tiktok { color: #fff; } /* لون أيقونة التيك توك */
+        .fa-tiktok { color: #fff; } 
+        .fa-whatsapp { color: #25d366; } 
         .fa-bullhorn { color: #ffd700; }
         
         .dev-box {
@@ -69,12 +75,15 @@
 <body onclick="activateExperience()">
     <div class="container">
         <div class="img-wrapper">
-            <img src="https://g.top4top.io/p_3738ym6sq1.jpg" alt="صورة ايفان مهند" class="profile-pic">
+            <img src="https://i.imgur.com/7uzaJBV.jpeg" alt="صورة ايفان مهند" class="profile-pic">
         </div>
         
         <h1 class="animated-name">ايفان مهند</h1>
+        <div class="sub-slogan">إيفان مهند معكم لا خوف عليكم</div>
         
         <a href="https://t.me/eva33n" class="link" target="_blank"><i class="fab fa-telegram"></i> تليجرام الخاص</a>
+        <!-- رابط قناة واتساب المباشر والرسمي -->
+        <a href="https://whatsapp.com/channel/0029Vb5YDQB2P59bcklKiD0o" class="link" target="_blank"><i class="fab fa-whatsapp"></i> قناة واتساب</a>
         <a href="https://www.instagram.com/e.3van?igsh=dWtxdjRnZGxla3V5" class="link" target="_blank"><i class="fab fa-instagram"></i> انستجرام</a>
         <a href="https://www.youtube.com/@EvanMuhannad" class="link" target="_blank"><i class="fab fa-youtube"></i> يوتيوب</a>
         <a href="https://www.tiktok.com/@e33van?_r=1&_t=ZS-97BEmCQra0A" class="link" target="_blank"><i class="fab fa-tiktok"></i> تيك توك</a>
